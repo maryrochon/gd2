@@ -1,0 +1,321 @@
+@font-face {
+    font-family: myMigra;
+    src: url(fonts/Migra-Extrabold.otf);
+}
+
+body{
+    background: rgb(218, 197, 250);
+    height: 5100px;
+}
+
+h1{
+    font-size: 60px;
+    font-family: "myMigra";
+    text-align: center; 
+    position: relative;
+    top: -25px;
+}
+
+#topscreen{
+    height: 100px;
+    width: 100%;
+    background: rgb(156, 31, 240);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.menu-area{
+    position: absolute;
+    background: rgb(204, 166, 253);
+    width: 100%;
+    height: 50px;
+    top: 100px;
+    left: 0px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.menu-area.active {
+    height: 100%;
+}
+
+.item{
+    font-size: 20px;
+    font-family: "myMigra";
+    text-align: center;
+    border: 2px solid rgb(156, 31, 240);
+    background: rgb(204, 166, 253);
+    text-decoration: none;
+}
+
+a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: rgb(255, 255, 255);
+}
+
+#container {
+    background: rgb(204, 166, 253);
+    border: 6px dashed rgb(156, 31, 240);
+    width: 300px;
+    color: black;
+    position: absolute;
+    top: 238px;
+    left: 685px;
+    text-align: center;
+    font-family: "myMigra";
+}
+
+#final{
+    position: absolute;
+    height: 420px;
+    width: 630px;
+    left: 50px;
+    top: 390px;
+}
+
+#summary{
+    position: absolute;
+    width: 850px;
+    top: 495px;
+    left: 750px;
+    font-weight: bold;
+}
+
+#reflection{
+    position: absolute;
+    width: 840px;
+    left: 750px;
+    top: 595px;
+}
+
+#explan1{
+    position: absolute;
+    width: 1070px;
+    left: 50px;
+    top: 950px;
+}
+
+#take2big{
+    position: absolute;
+    height: 532.9px;
+    width: 357.6px;
+    left: 1200px;
+    top: 825px;
+}
+
+#explan2{
+    position: absolute;
+    width: 1070px;
+    left: 50px;
+    top: 1125px;
+}
+
+#FirstI{
+    position: absolute;
+    top: 1450px;
+    text-align: center;
+    width: 99%;
+    font-size: 25px;
+    font-family: 'myMigra';
+}
+
+#take1{
+    position: absolute;
+    height: 434.2px;
+    width: 289px;
+    top: 1550px;
+    left: 300px;
+}
+
+#take1wwords{
+    position: absolute;
+    height: 434px;
+    width: 290px;
+    top: 1550px;
+    left: 1100px;
+}
+
+#SecondI{
+    position: absolute;
+    top: 2050px;
+    text-align: center;
+    width: 99%;
+    font-size: 25px;
+    font-family: 'myMigra';
+}
+
+#sk1{
+    position: absolute;
+    height: 444px;
+    width: 298px;
+    top: 2200px;
+    left: 298px;
+}
+
+#sk2{
+    position: absolute;
+    width: 522px;
+    height: 349.2px;
+    top: 2250px;
+    left: 1000px;
+}
+
+#sk3{
+    position: absolute;
+    width: 420px;
+    height: 262.5px; 
+    top: 3120px;
+    left: 335px;
+}
+
+#sk4{
+    position: absolute;
+    width: 420px;
+    height: 262.5px;  
+    top: 3120px;
+    left: 950px;
+}
+
+#sk5{
+    position: absolute;
+    width: 420px;
+    height: 262.5px; 
+    top: 2750px;
+    left: 50px;
+}
+
+#sk6{
+    position: absolute;
+    width: 420px;
+    height: 262.5px; 
+    top: 2750px;
+    left: 640px;
+}
+
+#sk7{
+    position: absolute;
+    width: 418.25px;
+    height: 227.5px;  
+    top: 2775px;
+    left: 1200px;
+}
+
+#ThirdI{
+    position: absolute;
+    top: 3450px;
+    text-align: center;
+    width: 99%;
+    font-size: 25px;
+    font-family: 'myMigra';
+}
+
+#sk8{
+    position: absolute;
+    height: 359.95px;
+    width: 540px;
+    top: 3600px;
+    left: 550px;
+}
+
+#sk9{
+    position: absolute;
+    height: 210px;
+    width: 336px;
+    top: 3675px;
+    left: 150px;
+}
+
+#sk10{
+    position: absolute;
+    width: 335.6px;
+    height: 188.8px;
+    top: 3690px;
+    left: 1150px;
+}
+
+#sk11{
+    position: absolute;
+    width: 336px;
+    height: 205.4px;
+    top: 4100px;
+    left: 1300px;
+}
+
+#sk12{
+    position: absolute;
+    width: 336px;
+    height: 207.6px;
+    top: 4100px;
+    left: 460px;
+}
+
+
+#sk13{
+    position: absolute;
+    width: 335.6px;
+    height: 188.8px;
+    top: 4110px;
+    left: 885px;
+}
+
+#sk14{
+    position: absolute;
+    width: 336px;
+    height: 189.6px;
+    top: 4110px;
+    left: 40px;
+}
+
+#sk15{
+    position: absolute;
+    width: 336px;
+    height: 189.6px;
+    top: 4460px;
+    left: 40;
+}
+
+#sk16{
+    position: absolute;
+    width: 336px;
+    height: 205.6px;
+    top: 4450px;
+    left: 885px;
+}
+
+#sk17{
+    position: absolute;
+    width: 336px;
+    height: 205.6px;
+    top: 4450px;
+    left: 460px;
+}
+
+#sk18{
+    position: absolute;
+    width: 336px;
+    height: 210px;
+    top: 4449px;
+    left: 1300px;
+}
+
+#sk19{
+    position: absolute;
+    width: 335.6px;
+    height: 194.2px;
+    top: 4800px;
+    left: 460px;
+}
+
+#sk20{
+    position: absolute;
+    width: 335.8px;
+    height: 207.6px;
+    top: 4800px;
+    left: 885px;
+}

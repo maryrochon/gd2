@@ -1,0 +1,439 @@
+@font-face {
+    font-family: myMigra;
+    src: url(fonts/Migra-Extrabold.otf);
+}
+
+body{
+    background: rgb(218, 197, 250);
+    width: 50%;
+    height: 23000px;
+}
+
+h1{
+    font-size: 60px;
+    font-family: "myMigra";
+    text-align: center; 
+    position: relative;
+    top: -25px;
+}
+
+#topscreen{
+    height: 100px;
+    width: 100%;
+    background: rgb(156, 31, 240);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.menu-area{
+    position: absolute;
+    background: rgb(204, 166, 253);
+    width: 100%;
+    height: 50px;
+    top: 100px;
+    left: 0px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.menu-area.active {
+    height: 100%;
+}
+
+.item{
+    font-size: 20px;
+    font-family: "myMigra";
+    text-align: center;
+    border: 2px solid rgb(156, 31, 240);
+    background: rgb(204, 166, 253);
+    text-decoration: none;
+}
+
+a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: rgb(255, 255, 255);
+}
+
+#container {
+    background: rgb(204, 166, 253);
+    border: 6px dashed rgb(156, 31, 240);
+    width: 300px;
+    color: black;
+    position: absolute;
+    top: 238px;
+    left: 685px;
+    text-align: center;
+    line-height: 1.3;
+    font-family: "myMigra";
+}
+
+h2{
+    font-family: "myMigra";
+    font-size: 25px;
+}
+iframe{
+    border: none;}
+img{
+    height: 300px;
+    width: 300px;}
+
+#sket1{
+    position: relative;
+    top: 425px;
+}
+#title1{
+    position: absolute;
+    left: 1275px;
+    top: 500px;
+}
+#bodyp1{
+    position: absolute;
+    left: 1100px;
+    width: 450px;
+    top: 575px;
+}
+
+#sket2{
+    position: absolute;
+    top: 1500px;
+}
+#sketch2{
+    position: absolute;
+    top: 1775px;
+    left: 1180px;
+}
+#title2{
+    position: absolute;
+    left: 1275px;
+    top: 1575px;
+}
+#bodyp2{
+    position: absolute;
+    left: 1100px;
+    width: 450px;
+    top: 1650px;
+}
+
+#sket3{
+    position: absolute;
+    top: 2575px;
+}
+#title3{
+    position: absolute;
+    left: 1275px;
+    top: 2650px;
+}
+#bodyp3{
+    position: absolute;
+    left: 1100px;
+    width: 450px;
+    top: 2725px;
+}
+
+#sket4{
+    position: absolute;
+    top: 3650px;
+}
+#title4{
+    position: absolute;
+    left: 1275px;
+    top: 3725px;
+}
+#bodyp4{
+    position: absolute;
+    left: 1100px;
+    width: 450px;
+    top: 3800px;
+}
+
+#sket5{
+    position: absolute;
+    top: 4725px;
+}
+#title5{
+    position: absolute;
+    left: 1275px;
+    top: 4800px;
+}
+#bodyp5{
+    position: absolute;
+    left: 1100px;
+    width: 450px;
+    top: 4875px;
+}
+
+#sket6{
+    position: absolute;
+    top: 5800px;
+}
+#title6{
+    position: absolute;
+    left: 1275px;
+    top: 5875px;
+}
+#sketch-06{
+    position: absolute;
+    top: 6075px;
+    left: 1170px;}
+#bodyp6{
+    position: absolute;
+    left: 1100px;
+    width: 450px;
+    top: 5950px;
+}
+
+#sket7{
+    position: absolute;
+    top: 6875px;
+}
+#title7{
+    position: absolute;
+    left: 1275px;
+    top: 6950px;
+}
+#bodyp7{
+    position: absolute;
+    left: 1100px;
+    width: 450px;
+    top: 7025px;
+}
+
+#sket8{
+    position: absolute;
+    top: 7950px;
+}
+#title8{
+    position: absolute;
+    left: 1275px;
+    top: 8025px;
+}
+#bodyp8{
+    position: absolute;
+    left: 1100px;
+    width: 450px;
+    top: 8100px;
+}
+
+#sket9{
+    position: absolute;
+    top: 9025px;
+}
+#title9{
+    position: absolute;
+    left: 1275px;
+    top: 9100px;
+}
+#bodyp9{
+    position: absolute;
+    left: 1100px;
+    width: 450px;
+    top: 9175px;
+}
+
+#sket10{
+    position: absolute;
+    top: 10100px;
+}
+#title10{
+    position: absolute;
+    left: 1275px;
+    top: 10175px;
+}
+#bodyp10{
+    position: absolute;
+    left: 1100px;
+    width: 450px;
+    top: 10250px;
+}
+
+#sket11{
+    position: absolute;
+    top: 11175px;
+}
+#title11{
+    position: absolute;
+    left: 1275px;
+    top: 11250px;
+}
+#bodyp11{
+    position: absolute;
+    left: 1100px;
+    width: 450px;
+    top: 11325px;
+}
+
+#sket12{
+    position: absolute;
+    top: 12250px;
+}
+#title12{
+    position: absolute;
+    left: 1275px;
+    top: 12325px;
+}
+#bodyp12{
+    position: absolute;
+    left: 1100px;
+    width: 450px;
+    top: 12400px;
+}
+
+#sket13{
+    position: absolute;
+    top: 13325px;
+}
+#title13{
+    position: absolute;
+    left: 1275px;
+    top: 13400px;
+}
+#bodyp13{
+    position: absolute;
+    left: 1100px;
+    width: 450px;
+    top: 13475px;
+}
+
+#sket14{
+    position: absolute;
+    top: 14400px;
+}
+#title14{
+    position: absolute;
+    left: 1275px;
+    top: 14475px;
+}
+#bodyp14{
+    position: absolute;
+    left: 1100px;
+    width: 450px;
+    top: 14550px;
+}
+
+#sket15{
+    position: absolute;
+    top: 15475px;
+}
+#title15{
+    position: absolute;
+    left: 1275px;
+    top: 15550px;
+}
+#bodyp15{
+    position: absolute;
+    left: 1100px;
+    width: 450px;
+    top: 15625px;
+}
+
+#sket16{
+    position: absolute;
+    top: 16550px;
+}
+#title16{
+    position: absolute;
+    left: 1275px;
+    top: 16625px;
+}
+#bodyp16{
+    position: absolute;
+    left: 1100px;
+    width: 450px;
+    top: 16700px;
+}
+
+#sket17{
+    position: absolute;
+    top: 17625px;
+}
+#title17{
+    position: absolute;
+    left: 1275px;
+    top: 17700px;
+}
+#bodyp17{
+    position: absolute;
+    left: 1100px;
+    width: 450px;
+    top: 17775px;
+}
+
+#sket18{
+    position: absolute;
+    top: 18700px;
+}
+#title18{
+    position: absolute;
+    left: 1275px;
+    top: 18775px;
+}
+#bodyp18{
+    position: absolute;
+    left: 1100px;
+    width: 450px;
+    top: 18850px;
+}
+
+#sket19{
+    position: absolute;
+    top: 19775px;
+}
+#title19{
+    position: absolute;
+    left: 1275px;
+    top: 19850px;
+}
+#bodyp19{
+    position: absolute;
+    left: 1100px;
+    width: 450px;
+    top: 19925px;
+}
+
+#sket20{
+    position: absolute;
+    top: 20850px;
+}
+#title20{
+    position: absolute;
+    left: 1275px;
+    top: 20925px;
+}
+#bodyp20{
+    position: absolute;
+    left: 1100px;
+    width: 450px;
+    top: 21000px;
+}
+#link20{
+    position: absolute;
+    left: 1170px;
+    top: 21100px;
+    color: purple;
+    font-size: 18px;
+}
+#link20:hover{
+    color: white;
+}
+
+#sket21{
+    position: absolute;
+    top: 21925px;
+}
+#title21{
+    position: absolute;
+    left: 1275px;
+    top: 22000px;
+}
+#bodyp21{
+    position: absolute;
+    left: 1100px;
+    width: 450px;
+    top: 22075px;
+}

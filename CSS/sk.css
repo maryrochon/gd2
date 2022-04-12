@@ -1,0 +1,104 @@
+@font-face {
+    font-family: myMigra;
+    src: url(fonts/Migra-Extrabold.otf);
+}
+
+body{
+    background: rgb(218, 197, 250);
+    height: 3000px;
+}
+
+h1{
+    font-size: 60px;
+    font-family: "myMigra";
+    text-align: center; 
+    position: relative;
+    top: -25px;
+}
+
+#topscreen{
+    height: 100px;
+    width: 100%;
+    background: rgb(156, 31, 240);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.menu-area{
+    position: absolute;
+    background: rgb(204, 166, 253);
+    width: 100%;
+    height: 50px;
+    top: 100px;
+    left: 0px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.menu-area.active {
+    height: 100%;
+}
+
+.item{
+    font-size: 20px;
+    font-family: "myMigra";
+    text-align: center;
+    border: 2px solid rgb(156, 31, 240);
+    background: rgb(204, 166, 253);
+    text-decoration: none;
+}
+
+a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: rgb(255, 255, 255);
+}
+
+#container {
+    background: rgb(204, 166, 253);
+    border: 6px dashed rgb(156, 31, 240);
+    width: 300px;
+    color: black;
+    position: absolute;
+    top: 238px;
+    left: 685px;
+    text-align: center;
+    font-family: "myMigra";
+}
+
+iframe{
+    border: none;
+    position: absolute;
+}
+img{
+    height:500px;
+    width: 500px;
+}
+
+#sk1{
+    top: 425px;
+}
+#sk2{
+    top: 1500px;
+}
+#sk3{
+    top: 2575px;
+}
+#sk4{
+    top: 3650px;
+}
+#sk5{
+    top: 4725px;
+}
+#sk6{
+    top: 5800px;
+}
+#sk7{
+    position: absolute;
+    top: 6875px;
+}

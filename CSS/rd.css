@@ -1,0 +1,142 @@
+@font-face {
+    font-family: myMigra;
+    src: url(fonts/Migra-Extrabold.otf);
+}
+
+body{
+    background: rgb(218, 197, 250);
+    height: 2000px;
+    width: 96%;
+}
+h1{
+    font-size: 60px;
+    font-family: "myMigra";
+    text-align: center; 
+    position: relative;
+    top: -25px;
+}
+#topscreen{
+    height: 100px;
+    width: 100%;
+    background: rgb(156, 31, 240);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.menu-area{
+    position: absolute;
+    background: rgb(204, 166, 253);
+    width: 100%;
+    height: 50px;
+    top: 100px;
+    left: 0px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+.menu-area.active {
+    height: 100%;
+}
+.item{
+    font-size: 20px;
+    font-family: "myMigra";
+    text-align: center;
+    border: 2px solid rgb(156, 31, 240);
+    background: rgb(204, 166, 253);
+    text-decoration: none;
+}
+a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: rgb(255, 255, 255);
+}
+#container {
+    background: rgb(204, 166, 253);
+    border: 6px dashed rgb(156, 31, 240);
+    width: 300px;
+    color: black;
+    position: absolute;
+    top: 238px;
+    left: 685px;
+    text-align: center;
+    font-family: "myMigra";
+}
+
+h3{
+    font-family: "myMigra";
+    position: relative;
+    top: 400px;
+    left: 50px;
+}
+.qrd1{
+    position: relative;
+    top: 420px;
+    left: 50px;
+    height: 200px;
+    border: 1px solid black;
+    width: 500px;
+    text-align: center;
+    font-weight: bold;
+}
+.ansrd1 {
+    position: relative;
+    top: 228px;
+    left: 600px;
+    width: 61%;
+}
+#rd2{
+    top: 350px;
+}
+.qrd2{
+    position: relative;
+    top: 370px;
+    left: 50px;
+    height: 175px;
+    border: 1px solid black;
+    width: 500px;
+    text-align: center;
+    font-weight: bold;
+}
+.ansrd2 {
+    position: relative;
+    top: 183px;
+    left: 600px;
+    width: 61%;
+}
+#rd3{
+    top: 300px;
+}
+.qrd3{
+    position: relative;
+    top:320px;
+    left: 50px;
+    height: 100px;
+    border: 1px solid black;
+    width: 505px;
+    text-align: center;
+    font-weight: bold;
+}
+.ansrd3 {
+    position: relative;
+    top: 181px;
+    left: 600px;
+    width: 61%;
+}
+.qrd4{
+    position: relative;
+    top: 430px;
+    left: 50px;
+    height: 105px;
+    border: 1px solid black;
+    width: 500px;
+    text-align: center;
+    font-weight: bold;
+}
+.ansrd4 {
+    position: relative;
+    top: 285px;
+    left: 600px;
+    width: 61%;
+}
